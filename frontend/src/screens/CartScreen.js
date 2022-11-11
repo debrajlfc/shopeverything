@@ -14,7 +14,7 @@ export default function CartScreen() {
   const navigate = useNavigate();
   const { state, dispatch: ctxDispatch } = useContext(Store);
   const {
-    cart: { cartItems },
+    cart: { cartItems }, //debraj
   } = state;
 
   const updateCartHandler = async (item, quantity) => {
