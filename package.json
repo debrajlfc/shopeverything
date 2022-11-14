@@ -4,5 +4,25 @@
     "dotenv": "^16.0.3",
     "gh-pages": "^4.0.0",
     "use-reducer-logger": "^1.0.2"
-  }
+  },
+  "name": "shopeverything",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debrajlfc/shopeverything.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/debrajlfc/shopeverything/issues"
+  },
+  "homepage": "https://github.com/debrajlfc/shopeverything#readme"
 }
